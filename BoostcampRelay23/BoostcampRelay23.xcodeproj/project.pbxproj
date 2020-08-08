@@ -17,6 +17,7 @@
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
 		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
 		5F3A54CB9F71586DA6D54BB3 /* Pods_BoostcampRelay23.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */; };
+		80B7C19324DED97C00E18663 /* DecodeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B7C19224DED97C00E18663 /* DecodeMessage.swift */; };
 		AD4D5185687D5F222E08B0CB /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */; };
 		BD7187F224DD41360087A647 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F124DD41360087A647 /* DetailView.swift */; };
 		DA8CF89324DD2794001679CC /* TableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableListView.swift */; };
@@ -67,6 +68,7 @@
 		5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFA096635C47519C264E83F /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A71B53C754D889BE5CBD0DB /* Pods-BoostcampRelay23Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80B7C19224DED97C00E18663 /* DecodeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeMessage.swift; sourceTree = "<group>"; };
 		837660612234940978AF67AA /* Pods_BoostcampRelay23Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDD87AD9BEF86F0D3FC3059 /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9D465DE47D160FFA0251D84E /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				FC1D991624DE60A8007BEE02 /* TranslationAPI.swift */,
+				80B7C19224DED97C00E18663 /* DecodeMessage.swift */,
 			);
 			path = translation;
 			sourceTree = "<group>";
@@ -482,6 +485,7 @@
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
 				FC1D991024DE5863007BEE02 /* PostData.swift in Sources */,
 				DA8CF89924DD47A6001679CC /* DummyData.swift in Sources */,
+				80B7C19324DED97C00E18663 /* DecodeMessage.swift in Sources */,
 				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
 				FC1D991224DE586E007BEE02 /* DBHelper.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
@@ -659,6 +663,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BoostcampRelay23/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BoostcampRelay23/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -679,6 +684,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BoostcampRelay23/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BoostcampRelay23/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
