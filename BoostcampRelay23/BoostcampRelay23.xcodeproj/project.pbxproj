@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,17 @@
 		37D53D1424DD20420035B665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D53D1224DD20420035B665 /* LaunchScreen.storyboard */; };
 		37D53D1F24DD20420035B665 /* BoostcampRelay23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D1E24DD20420035B665 /* BoostcampRelay23Tests.swift */; };
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
+		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
+		5F3A54CB9F71586DA6D54BB3 /* Pods_BoostcampRelay23.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */; };
+		AD4D5185687D5F222E08B0CB /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */; };
+		BD7187F224DD41360087A647 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F124DD41360087A647 /* DetailView.swift */; };
+		DA8CF89324DD2794001679CC /* TableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableListView.swift */; };
+		DA8CF89924DD47A6001679CC /* DummyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89824DD47A6001679CC /* DummyData.swift */; };
+		F4C6524DDB015CE91F04751A /* Pods_BoostcampRelay23Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837660612234940978AF67AA /* Pods_BoostcampRelay23Tests.framework */; };
+		FC1D991024DE5863007BEE02 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D990F24DE5863007BEE02 /* PostData.swift */; };
+		FC1D991224DE586E007BEE02 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D991124DE586E007BEE02 /* DBHelper.swift */; };
+		FC1D991724DE60A8007BEE02 /* TranslationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D991624DE60A8007BEE02 /* TranslationAPI.swift */; };
+		FC1D991B24DE7099007BEE02 /* DummyFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D991A24DE7099007BEE02 /* DummyFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23_BoostcampRelay23UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5A203D3E2B8B2E8BF24B35 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; sourceTree = "<group>"; };
 		37D53D0424DD20400035B665 /* BoostcampRelay23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoostcampRelay23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D53D0724DD20400035B665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37D53D0924DD20400035B665 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +62,21 @@
 		37D53D2524DD20420035B665 /* BoostcampRelay23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostcampRelay23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostcampRelay23UITests.swift; sourceTree = "<group>"; };
 		37D53D2B24DD20420035B665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2D752E24DD3D97009BB80C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4F9698B7A9CAD4295E8C00E3 /* Pods-BoostcampRelay23.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.release.xcconfig"; sourceTree = "<group>"; };
+		5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FFA096635C47519C264E83F /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A71B53C754D889BE5CBD0DB /* Pods-BoostcampRelay23Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		837660612234940978AF67AA /* Pods_BoostcampRelay23Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DDD87AD9BEF86F0D3FC3059 /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D465DE47D160FFA0251D84E /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7187F124DD41360087A647 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DA8CF89224DD2794001679CC /* TableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListView.swift; sourceTree = "<group>"; };
+		DA8CF89824DD47A6001679CC /* DummyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyData.swift; sourceTree = "<group>"; };
+		FC1D990F24DE5863007BEE02 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		FC1D991124DE586E007BEE02 /* DBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		FC1D991624DE60A8007BEE02 /* TranslationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationAPI.swift; sourceTree = "<group>"; };
+		FC1D991A24DE7099007BEE02 /* DummyFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F3A54CB9F71586DA6D54BB3 /* Pods_BoostcampRelay23.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C6524DDB015CE91F04751A /* Pods_BoostcampRelay23Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD4D5185687D5F222E08B0CB /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +114,8 @@
 				37D53D1D24DD20420035B665 /* BoostcampRelay23Tests */,
 				37D53D2824DD20420035B665 /* BoostcampRelay23UITests */,
 				37D53D0524DD20400035B665 /* Products */,
+				B1492D23470979BAE461B7D7 /* Pods */,
+				CB3412231688E184F235535C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,9 @@
 		37D53D0624DD20400035B665 /* BoostcampRelay23 */ = {
 			isa = PBXGroup;
 			children = (
+				FC1D991C24DE7E62007BEE02 /* views */,
+				FC1D991424DE608D007BEE02 /* api */,
+				FC1D990E24DE583F007BEE02 /* realm */,
 				37D53D0724DD20400035B665 /* AppDelegate.swift */,
 				37D53D0924DD20400035B665 /* SceneDelegate.swift */,
 				37D53D0B24DD20400035B665 /* ContentView.swift */,
@@ -106,6 +142,7 @@
 				37D53D1224DD20420035B665 /* LaunchScreen.storyboard */,
 				37D53D1524DD20420035B665 /* Info.plist */,
 				37D53D0F24DD20420035B665 /* Preview Content */,
+				3A2D752E24DD3D97009BB80C /* Post.swift */,
 			);
 			path = BoostcampRelay23;
 			sourceTree = "<group>";
@@ -136,6 +173,73 @@
 			path = BoostcampRelay23UITests;
 			sourceTree = "<group>";
 		};
+		B1492D23470979BAE461B7D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D465DE47D160FFA0251D84E /* Pods-BoostcampRelay23.debug.xcconfig */,
+				4F9698B7A9CAD4295E8C00E3 /* Pods-BoostcampRelay23.release.xcconfig */,
+				6FFA096635C47519C264E83F /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */,
+				2E5A203D3E2B8B2E8BF24B35 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */,
+				7A71B53C754D889BE5CBD0DB /* Pods-BoostcampRelay23Tests.debug.xcconfig */,
+				8DDD87AD9BEF86F0D3FC3059 /* Pods-BoostcampRelay23Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB3412231688E184F235535C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */,
+				1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */,
+				837660612234940978AF67AA /* Pods_BoostcampRelay23Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1D990E24DE583F007BEE02 /* realm */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D991324DE5872007BEE02 /* tables */,
+				FC1D991124DE586E007BEE02 /* DBHelper.swift */,
+				FC1D991A24DE7099007BEE02 /* DummyFactory.swift */,
+			);
+			path = realm;
+			sourceTree = "<group>";
+		};
+		FC1D991324DE5872007BEE02 /* tables */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D990F24DE5863007BEE02 /* PostData.swift */,
+			);
+			path = tables;
+			sourceTree = "<group>";
+		};
+		FC1D991424DE608D007BEE02 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D991524DE6098007BEE02 /* translation */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		FC1D991524DE6098007BEE02 /* translation */ = {
+			isa = PBXGroup;
+			children = (
+				FC1D991624DE60A8007BEE02 /* TranslationAPI.swift */,
+			);
+			path = translation;
+			sourceTree = "<group>";
+		};
+		FC1D991C24DE7E62007BEE02 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DA8CF89824DD47A6001679CC /* DummyData.swift */,
+				BD7187F124DD41360087A647 /* DetailView.swift */,
+				DA8CF89224DD2794001679CC /* TableListView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D53D2E24DD20420035B665 /* Build configuration list for PBXNativeTarget "BoostcampRelay23" */;
 			buildPhases = (
+				E7450293EE14376D0EE1E0DC /* [CP] Check Pods Manifest.lock */,
 				37D53D0024DD20400035B665 /* Sources */,
 				37D53D0124DD20400035B665 /* Frameworks */,
 				37D53D0224DD20400035B665 /* Resources */,
+				D9D5C0D63E93A53AA5B3CA5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D53D3124DD20420035B665 /* Build configuration list for PBXNativeTarget "BoostcampRelay23Tests" */;
 			buildPhases = (
+				4D92BF6DAACD1D750F12C853 /* [CP] Check Pods Manifest.lock */,
 				37D53D1624DD20420035B665 /* Sources */,
 				37D53D1724DD20420035B665 /* Frameworks */,
 				37D53D1824DD20420035B665 /* Resources */,
@@ -178,9 +285,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37D53D3424DD20420035B665 /* Build configuration list for PBXNativeTarget "BoostcampRelay23UITests" */;
 			buildPhases = (
+				4C97EC55E3B67ABB9D86D656 /* [CP] Check Pods Manifest.lock */,
 				37D53D2124DD20420035B665 /* Sources */,
 				37D53D2224DD20420035B665 /* Frameworks */,
 				37D53D2324DD20420035B665 /* Resources */,
+				7EEF3F7F463B72D009A3FAA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,14 +371,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C97EC55E3B67ABB9D86D656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoostcampRelay23-BoostcampRelay23UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D92BF6DAACD1D750F12C853 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoostcampRelay23Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EEF3F7F463B72D009A3FAA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D5C0D63E93A53AA5B3CA5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7450293EE14376D0EE1E0DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BoostcampRelay23-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		37D53D0024DD20400035B665 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
+				FC1D991024DE5863007BEE02 /* PostData.swift in Sources */,
+				DA8CF89924DD47A6001679CC /* DummyData.swift in Sources */,
+				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
+				FC1D991224DE586E007BEE02 /* DBHelper.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
+				DA8CF89324DD2794001679CC /* TableListView.swift in Sources */,
 				37D53D0C24DD20400035B665 /* ContentView.swift in Sources */,
+				FC1D991724DE60A8007BEE02 /* TranslationAPI.swift in Sources */,
+				FC1D991B24DE7099007BEE02 /* DummyFactory.swift in Sources */,
+				3A2D752F24DD3D97009BB80C /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +652,7 @@
 		};
 		37D53D2F24DD20420035B665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D465DE47D160FFA0251D84E /* Pods-BoostcampRelay23.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +672,7 @@
 		};
 		37D53D3024DD20420035B665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9698B7A9CAD4295E8C00E3 /* Pods-BoostcampRelay23.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +692,7 @@
 		};
 		37D53D3224DD20420035B665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A71B53C754D889BE5CBD0DB /* Pods-BoostcampRelay23Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +714,7 @@
 		};
 		37D53D3324DD20420035B665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DDD87AD9BEF86F0D3FC3059 /* Pods-BoostcampRelay23Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +736,7 @@
 		};
 		37D53D3524DD20420035B665 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFA096635C47519C264E83F /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -531,6 +756,7 @@
 		};
 		37D53D3624DD20420035B665 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5A203D3E2B8B2E8BF24B35 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

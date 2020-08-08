@@ -1,0 +1,6 @@
+framework module Pods_BoostcampRelay23_BoostcampRelay23UITests {
+  umbrella header "Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
