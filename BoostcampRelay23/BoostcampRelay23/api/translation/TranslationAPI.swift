@@ -15,8 +15,8 @@
   class TranslationAPI {
       
        static let shared = TranslationAPI()
-       private let userId = "sniuqpwqjq"
-       private let key = "qdC3nDk1s3LxwE5lbDMOe7vhIVynxFhZ2rL2pW7Q"
+       private let userId = "다음 릴레이 프로젝트를 진행하실 캠퍼분의 user id를 넣어주세요"
+       private let key = "다음 릴레이 프로젝트를 진행하실 캠퍼분의 key를 넣어주세요"
        private var request = URLRequest(url: URL(string: "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation")!)
        
        private init(){
