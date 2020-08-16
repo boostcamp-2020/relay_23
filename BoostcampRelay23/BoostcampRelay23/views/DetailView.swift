@@ -32,6 +32,7 @@ struct DetailView: View {
     @State private var isTranslate = false
     @State private var content = ""
     @State private var isExistTranslte = false
+    @State private var count = 0
     
     var detailData: PostData
     
@@ -60,7 +61,7 @@ struct DetailView: View {
                     }
                     self.isTranslate.toggle()
                 }) {
-                    Text(isTranslate ? "Translate" : "번역하기")
+                    Text(isTranslate ? "A👉가" : "가👉A")
                         .padding(5)
                         .foregroundColor(.white)
                         .background(Color.blue)
@@ -77,6 +78,17 @@ struct DetailView: View {
                 .padding(.bottom, 20)
                 .padding(.horizontal, 20)
             Spacer()
+            
+            HStack {
+                Button(action: {
+                    self.count += 1}) {
+                        Text("👍 \(String(count))")
+                            .padding(5)
+                            .foregroundColor(Color.white)
+                            .background(Color.red)
+                }
+                .cornerRadius(10)
+            }
         }
     }
     
