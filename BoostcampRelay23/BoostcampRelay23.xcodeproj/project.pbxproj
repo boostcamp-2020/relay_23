@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24A7BA3624E83818009C4558 /* web3.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A7BA3424E83818009C4558 /* web3.png */; };
+		24A7BA3724E83818009C4558 /* web2.png in Resources */ = {isa = PBXBuildFile; fileRef = 24A7BA3524E83818009C4558 /* web2.png */; };
 		37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D0724DD20400035B665 /* AppDelegate.swift */; };
 		37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D0924DD20400035B665 /* SceneDelegate.swift */; };
 		37D53D0C24DD20400035B665 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D0B24DD20400035B665 /* ContentView.swift */; };
@@ -17,7 +19,26 @@
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
 		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
 		5F3A54CB9F71586DA6D54BB3 /* Pods_BoostcampRelay23.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */; };
+		718470BB24E665B100A179BE /* WebtoonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718470BA24E665B100A179BE /* WebtoonListView.swift */; };
+		718470BD24E6660A00A179BE /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718470BC24E6660A00A179BE /* MainTabView.swift */; };
+		718470BF24E6683D00A179BE /* WebtoonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718470BE24E6683D00A179BE /* WebtoonView.swift */; };
+		718470C124E66CD100A179BE /* testImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 718470C024E66CD100A179BE /* testImage.png */; };
+		718470C324E6748E00A179BE /* testImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 718470C224E6748D00A179BE /* testImage1.png */; };
+		718470C524E6749300A179BE /* testImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 718470C424E6749300A179BE /* testImage2.png */; };
+		718470C724E6749800A179BE /* testImage3.png in Resources */ = {isa = PBXBuildFile; fileRef = 718470C624E6749800A179BE /* testImage3.png */; };
+		718470CB24E687A400A179BE /* WriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718470CA24E687A400A179BE /* WriteView.swift */; };
 		80B7C19324DED97C00E18663 /* DecodeMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B7C19224DED97C00E18663 /* DecodeMessage.swift */; };
+		99525D1524E7B4F40064BBCD /* Translater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99525D1424E7B4F40064BBCD /* Translater.swift */; };
+		99E6F22224E971EE00FD2A92 /* web4.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22124E971EE00FD2A92 /* web4.png */; };
+		99E6F22424E9733300FD2A92 /* web5.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22324E9733300FD2A92 /* web5.png */; };
+		99E6F22624E9741500FD2A92 /* web6.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22524E9741500FD2A92 /* web6.png */; };
+		99E6F22E24E9767300FD2A92 /* toon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22724E9767200FD2A92 /* toon1.png */; };
+		99E6F22F24E9767300FD2A92 /* toon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22824E9767300FD2A92 /* toon2.png */; };
+		99E6F23024E9767300FD2A92 /* toon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22924E9767300FD2A92 /* toon5.png */; };
+		99E6F23124E9767300FD2A92 /* toon7.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22A24E9767300FD2A92 /* toon7.png */; };
+		99E6F23224E9767300FD2A92 /* toon6.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22B24E9767300FD2A92 /* toon6.png */; };
+		99E6F23324E9767300FD2A92 /* toon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22C24E9767300FD2A92 /* toon4.png */; };
+		99E6F23424E9767300FD2A92 /* toon3.png in Resources */ = {isa = PBXBuildFile; fileRef = 99E6F22D24E9767300FD2A92 /* toon3.png */; };
 		AD4D5185687D5F222E08B0CB /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */; };
 		BD7187F224DD41360087A647 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F124DD41360087A647 /* DetailView.swift */; };
 		DA8CF89324DD2794001679CC /* TableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableListView.swift */; };
@@ -48,6 +69,8 @@
 
 /* Begin PBXFileReference section */
 		1F88BF7A918098F16C97D436 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23_BoostcampRelay23UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24A7BA3424E83818009C4558 /* web3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web3.png; sourceTree = "<group>"; };
+		24A7BA3524E83818009C4558 /* web2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web2.png; sourceTree = "<group>"; };
 		2E5A203D3E2B8B2E8BF24B35 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; sourceTree = "<group>"; };
 		37D53D0424DD20400035B665 /* BoostcampRelay23.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoostcampRelay23.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D53D0724DD20400035B665 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,10 +90,29 @@
 		4F9698B7A9CAD4295E8C00E3 /* Pods-BoostcampRelay23.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.release.xcconfig"; sourceTree = "<group>"; };
 		5139B31A31DFF9F6F33FC9F5 /* Pods_BoostcampRelay23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFA096635C47519C264E83F /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		718470BA24E665B100A179BE /* WebtoonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonListView.swift; sourceTree = "<group>"; };
+		718470BC24E6660A00A179BE /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		718470BE24E6683D00A179BE /* WebtoonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonView.swift; sourceTree = "<group>"; };
+		718470C024E66CD100A179BE /* testImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage.png; sourceTree = "<group>"; };
+		718470C224E6748D00A179BE /* testImage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage1.png; sourceTree = "<group>"; };
+		718470C424E6749300A179BE /* testImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage2.png; sourceTree = "<group>"; };
+		718470C624E6749800A179BE /* testImage3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testImage3.png; sourceTree = "<group>"; };
+		718470CA24E687A400A179BE /* WriteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WriteView.swift; sourceTree = "<group>"; };
 		7A71B53C754D889BE5CBD0DB /* Pods-BoostcampRelay23Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		80B7C19224DED97C00E18663 /* DecodeMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeMessage.swift; sourceTree = "<group>"; };
 		837660612234940978AF67AA /* Pods_BoostcampRelay23Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDD87AD9BEF86F0D3FC3059 /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
+		99525D1424E7B4F40064BBCD /* Translater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translater.swift; sourceTree = "<group>"; };
+		99E6F22124E971EE00FD2A92 /* web4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web4.png; sourceTree = "<group>"; };
+		99E6F22324E9733300FD2A92 /* web5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web5.png; sourceTree = "<group>"; };
+		99E6F22524E9741500FD2A92 /* web6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = web6.png; sourceTree = "<group>"; };
+		99E6F22724E9767200FD2A92 /* toon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon1.png; sourceTree = "<group>"; };
+		99E6F22824E9767300FD2A92 /* toon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon2.png; sourceTree = "<group>"; };
+		99E6F22924E9767300FD2A92 /* toon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon5.png; sourceTree = "<group>"; };
+		99E6F22A24E9767300FD2A92 /* toon7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon7.png; sourceTree = "<group>"; };
+		99E6F22B24E9767300FD2A92 /* toon6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon6.png; sourceTree = "<group>"; };
+		99E6F22C24E9767300FD2A92 /* toon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon4.png; sourceTree = "<group>"; };
+		99E6F22D24E9767300FD2A92 /* toon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toon3.png; sourceTree = "<group>"; };
 		9D465DE47D160FFA0251D84E /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
 		BD7187F124DD41360087A647 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		DA8CF89224DD2794001679CC /* TableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableListView.swift; sourceTree = "<group>"; };
@@ -109,6 +151,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		245814DD24E8FD3F00E37D95 /* Vision */ = {
+			isa = PBXGroup;
+			children = (
+				99525D1424E7B4F40064BBCD /* Translater.swift */,
+			);
+			path = Vision;
+			sourceTree = "<group>";
+		};
 		37D53CFB24DD20400035B665 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +184,22 @@
 		37D53D0624DD20400035B665 /* BoostcampRelay23 */ = {
 			isa = PBXGroup;
 			children = (
+				99E6F22724E9767200FD2A92 /* toon1.png */,
+				99E6F22824E9767300FD2A92 /* toon2.png */,
+				99E6F22D24E9767300FD2A92 /* toon3.png */,
+				99E6F22C24E9767300FD2A92 /* toon4.png */,
+				99E6F22924E9767300FD2A92 /* toon5.png */,
+				99E6F22B24E9767300FD2A92 /* toon6.png */,
+				99E6F22A24E9767300FD2A92 /* toon7.png */,
+				99E6F22524E9741500FD2A92 /* web6.png */,
+				99E6F22324E9733300FD2A92 /* web5.png */,
+				99E6F22124E971EE00FD2A92 /* web4.png */,
+				24A7BA3524E83818009C4558 /* web2.png */,
+				24A7BA3424E83818009C4558 /* web3.png */,
+				718470C024E66CD100A179BE /* testImage.png */,
+				718470C224E6748D00A179BE /* testImage1.png */,
+				718470C424E6749300A179BE /* testImage2.png */,
+				718470C624E6749800A179BE /* testImage3.png */,
 				FC1D991C24DE7E62007BEE02 /* views */,
 				FC1D991424DE608D007BEE02 /* api */,
 				FC1D990E24DE583F007BEE02 /* realm */,
@@ -219,18 +285,19 @@
 		FC1D991424DE608D007BEE02 /* api */ = {
 			isa = PBXGroup;
 			children = (
-				FC1D991524DE6098007BEE02 /* translation */,
+				245814DD24E8FD3F00E37D95 /* Vision */,
+				FC1D991524DE6098007BEE02 /* Translation */,
 			);
 			path = api;
 			sourceTree = "<group>";
 		};
-		FC1D991524DE6098007BEE02 /* translation */ = {
+		FC1D991524DE6098007BEE02 /* Translation */ = {
 			isa = PBXGroup;
 			children = (
 				FC1D991624DE60A8007BEE02 /* TranslationAPI.swift */,
 				80B7C19224DED97C00E18663 /* DecodeMessage.swift */,
 			);
-			path = translation;
+			path = Translation;
 			sourceTree = "<group>";
 		};
 		FC1D991C24DE7E62007BEE02 /* views */ = {
@@ -239,6 +306,10 @@
 				DA8CF89824DD47A6001679CC /* DummyData.swift */,
 				BD7187F124DD41360087A647 /* DetailView.swift */,
 				DA8CF89224DD2794001679CC /* TableListView.swift */,
+				718470BA24E665B100A179BE /* WebtoonListView.swift */,
+				718470BC24E6660A00A179BE /* MainTabView.swift */,
+				718470BE24E6683D00A179BE /* WebtoonView.swift */,
+				718470CA24E687A400A179BE /* WriteView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -255,6 +326,7 @@
 				37D53D0124DD20400035B665 /* Frameworks */,
 				37D53D0224DD20400035B665 /* Resources */,
 				D9D5C0D63E93A53AA5B3CA5F /* [CP] Embed Pods Frameworks */,
+				388BCC40719CB7AE555CF9E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -293,6 +365,7 @@
 				37D53D2224DD20420035B665 /* Frameworks */,
 				37D53D2324DD20420035B665 /* Resources */,
 				7EEF3F7F463B72D009A3FAA5 /* [CP] Embed Pods Frameworks */,
+				4F5CF9C2AB505F3742882F60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -352,9 +425,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99E6F22E24E9767300FD2A92 /* toon1.png in Resources */,
+				99E6F23224E9767300FD2A92 /* toon6.png in Resources */,
 				37D53D1424DD20420035B665 /* LaunchScreen.storyboard in Resources */,
+				99E6F23424E9767300FD2A92 /* toon3.png in Resources */,
+				99E6F22F24E9767300FD2A92 /* toon2.png in Resources */,
+				99E6F23124E9767300FD2A92 /* toon7.png in Resources */,
+				99E6F22224E971EE00FD2A92 /* web4.png in Resources */,
 				37D53D1124DD20420035B665 /* Preview Assets.xcassets in Resources */,
+				99E6F23024E9767300FD2A92 /* toon5.png in Resources */,
+				99E6F23324E9767300FD2A92 /* toon4.png in Resources */,
+				24A7BA3724E83818009C4558 /* web2.png in Resources */,
+				718470C724E6749800A179BE /* testImage3.png in Resources */,
+				718470C124E66CD100A179BE /* testImage.png in Resources */,
+				24A7BA3624E83818009C4558 /* web3.png in Resources */,
+				718470C324E6748E00A179BE /* testImage1.png in Resources */,
+				99E6F22424E9733300FD2A92 /* web5.png in Resources */,
 				37D53D0E24DD20420035B665 /* Assets.xcassets in Resources */,
+				718470C524E6749300A179BE /* testImage2.png in Resources */,
+				99E6F22624E9741500FD2A92 /* web6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,6 +464,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		388BCC40719CB7AE555CF9E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4C97EC55E3B67ABB9D86D656 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -417,6 +523,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F5CF9C2AB505F3742882F60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7EEF3F7F463B72D009A3FAA5 /* [CP] Embed Pods Frameworks */ = {
@@ -482,16 +605,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				718470CB24E687A400A179BE /* WriteView.swift in Sources */,
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
+				718470BF24E6683D00A179BE /* WebtoonView.swift in Sources */,
 				FC1D991024DE5863007BEE02 /* PostData.swift in Sources */,
+				718470BB24E665B100A179BE /* WebtoonListView.swift in Sources */,
 				DA8CF89924DD47A6001679CC /* DummyData.swift in Sources */,
 				80B7C19324DED97C00E18663 /* DecodeMessage.swift in Sources */,
+				99525D1524E7B4F40064BBCD /* Translater.swift in Sources */,
 				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
 				FC1D991224DE586E007BEE02 /* DBHelper.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
 				DA8CF89324DD2794001679CC /* TableListView.swift in Sources */,
 				37D53D0C24DD20400035B665 /* ContentView.swift in Sources */,
 				FC1D991724DE60A8007BEE02 /* TranslationAPI.swift in Sources */,
+				718470BD24E6660A00A179BE /* MainTabView.swift in Sources */,
 				FC1D991B24DE7099007BEE02 /* DummyFactory.swift in Sources */,
 				3A2D752F24DD3D97009BB80C /* Post.swift in Sources */,
 			);
@@ -704,7 +832,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostcampRelay23Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -726,7 +854,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostcampRelay23Tests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,6 +875,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostcampRelay23UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -767,6 +896,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BoostcampRelay23UITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

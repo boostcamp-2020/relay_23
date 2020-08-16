@@ -1,4 +1,57 @@
 PODS:
+  - GoogleDataTransport (7.2.0):
+    - nanopb (~> 1.30905.0)
+  - GoogleMLKit/MLKitCore (0.62.0):
+    - MLKitCommon (~> 0.62.0)
+  - GoogleMLKit/TextRecognition (0.62.0):
+    - GoogleMLKit/MLKitCore
+    - MLKitTextRecognition (~> 0.62.0)
+  - GoogleToolboxForMac/DebugUtils (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.2)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.2)
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.2)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.2)"
+  - GoogleUtilities/Environment (6.7.2):
+    - PromisesObjC (~> 1.2)
+  - GoogleUtilities/Logger (6.7.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/UserDefaults (6.7.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilitiesComponents (1.0.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.4.0)
+  - MLKitCommon (0.62.0):
+    - GoogleDataTransport (~> 7.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - GoogleUtilities/UserDefaults (~> 6.0)
+    - GoogleUtilitiesComponents (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.12)
+  - MLKitTextRecognition (0.62.0):
+    - MLKitCommon (~> 0.62)
+    - MLKitVision (~> 0.62)
+  - MLKitVision (0.62.0):
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+    - MLKitCommon (~> 0.62)
+    - Protobuf (~> 3.12)
+  - nanopb (1.30905.0):
+    - nanopb/decode (= 1.30905.0)
+    - nanopb/encode (= 1.30905.0)
+  - nanopb/decode (1.30905.0)
+  - nanopb/encode (1.30905.0)
+  - PromisesObjC (1.2.10)
+  - Protobuf (3.12.0)
   - Realm (5.3.3):
     - Realm/Headers (= 5.3.3)
   - Realm/Headers (5.3.3)
@@ -6,17 +59,42 @@ PODS:
     - Realm (= 5.3.3)
 
 DEPENDENCIES:
+  - GoogleMLKit/TextRecognition
   - RealmSwift
 
 SPEC REPOS:
   trunk:
+    - GoogleDataTransport
+    - GoogleMLKit
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - GoogleUtilitiesComponents
+    - GTMSessionFetcher
+    - MLKitCommon
+    - MLKitTextRecognition
+    - MLKitVision
+    - nanopb
+    - PromisesObjC
+    - Protobuf
     - Realm
     - RealmSwift
 
 SPEC CHECKSUMS:
+  GoogleDataTransport: 672fb0ce96fe7f7f31d43672fca62ad2c9c86f7b
+  GoogleMLKit: b753199bd6be50b49d55ffe0c60ad19a8aec56f9
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: 7f2f5a07f888cdb145101d6042bc4422f57e70b3
+  GoogleUtilitiesComponents: a69c0b3b369ba443e988141e75ef49d9010b1c80
+  GTMSessionFetcher: 6f5c8abbab8a9bce4bb3f057e317728ec6182b10
+  MLKitCommon: 9890ef9e9c374f53a48e435a4c6ce208c8b16a1e
+  MLKitTextRecognition: 8dd0aa91588d3b15bfa4d2546a077c1bd2e8544a
+  MLKitVision: 6f0f4e5168becf2bb2e053ddfe26da2a27cc4906
+  nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
+  PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  Protobuf: 2793fcd0622a00b546c60e7cbbcc493e043e9bb9
   Realm: 2d57ea355bf8ca2a0964d6bfb38d28d7ff2addf6
   RealmSwift: 0a709536ecea30eea1d3c514f6ade2ed078dee3c
 
-PODFILE CHECKSUM: 13ee119542c25e1025b6e22e43f5fd7cacc20faf
+PODFILE CHECKSUM: bf303ce4098a2de36ce0d0808a92379ebaa25e51
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.9.1
