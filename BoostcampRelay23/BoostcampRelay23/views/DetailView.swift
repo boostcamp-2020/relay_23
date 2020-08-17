@@ -54,7 +54,8 @@ struct DetailView: View {
                     // TODO:- 번역 작업 불러오기
                     // 번역 통신은 초기 한번만 하자.
                     if !self.isExistTranslte{
-                        TranslationAPI.shared.translate(text: self.detailData.getContent()) { (text) in
+                        print(self.detailData.getContent())
+                        TranslationAPI.shared.translate(text: self.detailData.getContent(), to: "en", from: "ko") { (text) in
                             self.content = text
                             self.isExistTranslte = true
                         }

@@ -26,8 +26,8 @@
            request.addValue(key, forHTTPHeaderField: "X-NCP-APIGW-API-KEY")
        }
        
-    func translate(text: String,_ callback: @escaping (String)->Void) {
-           let param = "source=en&target=ko&text=\(text)"
+    func translate(text: String, to :String, from: String, _ callback: @escaping (String)->Void) {
+           let param = "source=\(from)&target=\(to)&text=\(text)"
            let paramData = param.data(using: .utf8)
            
            request.httpBody = paramData

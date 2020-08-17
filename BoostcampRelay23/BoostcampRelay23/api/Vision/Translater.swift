@@ -156,7 +156,7 @@ extension Translater {
         print("before translating block.text: \(textBlock.text)")
         let trimmedText = String(textBlock.text.map { $0 == "\n" ? " " : $0 })
         
-        TranslationAPI.shared.translate(text: trimmedText) { resultText in
+        TranslationAPI.shared.translate(text: trimmedText, to: "ko", from: "en") { resultText in
             DispatchQueue.main.async {
                 label.text = resultText
                 completion(resultText)
