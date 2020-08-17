@@ -23,7 +23,7 @@ struct WebtoonView: View {
      */
     
     var detailData: Post
-    let originContent = [UIImage.init(named: "toon1.png")!, UIImage.init(named: "toon2.png")!, UIImage.init(named: "toon3.png")!, UIImage.init(named: "toon4.png")!, UIImage.init(named: "toon5.png")!, UIImage.init(named: "toon6.png")!, UIImage.init(named: "toon7.png")!]
+
     @State private var translatedContent = [UIImage.init(named: "toon1.png")!, UIImage.init(named: "toon2.png")!, UIImage.init(named: "toon3.png")!, UIImage.init(named: "toon4.png")!, UIImage.init(named: "toon5.png")!, UIImage.init(named: "toon6.png")!, UIImage.init(named: "toon7.png")!]
     
     init(detailData: Post) {
@@ -45,17 +45,15 @@ struct WebtoonView: View {
                     Button(action: {
                         // TODO:- 번역 작업 불러오기
                         // 번역 통신은 초기 한번만 하자.
-                        if self.isTranslated {
-                            self.imageContent = self.originContent
-                        } else {
-                            //self.imageContent = self.translatedContent
-                            self.originContent.enumerated().forEach({ (idx, image) in
+                        if !self.isExistTranslte {
+                            self.imageContent.enumerated().forEach({ (idx, image) in
                                 let translater = Translater()
                                 translater.setup(image: image)
                                 translater.start()
                                 translater.getTranslatedImage = { image in
                                     if let image = image {
-                                        self.imageContent[idx] = image
+                                        self.translatedContent[idx] = image
+                                        self.isExistTranslte = true
                                     }
                                 }
                             })
@@ -75,7 +73,7 @@ struct WebtoonView: View {
                 Spacer()
                 VStack {
                     ForEach(0..<imageContent.count) { index in
-                        Image(uiImage: self.imageContent[index]).resizable().aspectRatio(contentMode: .fit)
+                        Image(uiImage: self.isTranslated ? self.translatedContent[index] : self.imageContent[index]).resizable().aspectRatio(contentMode: .fit)
                     }
                 }
                 Spacer()

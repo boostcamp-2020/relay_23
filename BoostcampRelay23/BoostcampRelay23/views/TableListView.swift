@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct TableListView: View {
-//    var listData: [Test] = [Test(title: "Title1", author: "cho"), Test(title: "Title2", author: "cho")]
+
     var body: some View {
         NavigationView{
             
