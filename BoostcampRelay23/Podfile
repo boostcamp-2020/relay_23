@@ -7,6 +7,8 @@ target 'BoostcampRelay23' do
 
   #Realm Lib Import
   pod 'RealmSwift'
+  
+  pod ‘GoogleMLKit/TextRecognition’
 
   # Pods for BoostcampRelay23
 
@@ -18,5 +20,7 @@ target 'BoostcampRelay23' do
   target 'BoostcampRelay23UITests' do
     # Pods for testing
   end
+
+ 
 
 end

@@ -32,6 +32,7 @@ struct DetailView: View {
     @State private var isTranslate = false
     @State private var content = ""
     @State private var isExistTranslte = false
+    @State private var count = 0
     
     var detailData: PostData
     
@@ -53,14 +54,15 @@ struct DetailView: View {
                     // TODO:- 번역 작업 불러오기
                     // 번역 통신은 초기 한번만 하자.
                     if !self.isExistTranslte{
-                        TranslationAPI.shared.translate(text: self.detailData.getContent()) { (text) in
+                        print(self.detailData.getContent())
+                        TranslationAPI.shared.translate(text: self.detailData.getContent(), to: "en", from: "ko") { (text) in
                             self.content = text
                             self.isExistTranslte = true
                         }
                     }
                     self.isTranslate.toggle()
                 }) {
-                    Text(isTranslate ? "Translate" : "번역하기")
+                    Text(isTranslate ? "A👉가" : "가👉A")
                         .padding(5)
                         .foregroundColor(.white)
                         .background(Color.blue)
@@ -77,6 +79,17 @@ struct DetailView: View {
                 .padding(.bottom, 20)
                 .padding(.horizontal, 20)
             Spacer()
+            
+            HStack {
+                Button(action: {
+                    self.count += 1}) {
+                        Text("👍 \(String(count))")
+                            .padding(5)
+                            .foregroundColor(Color.white)
+                            .background(Color.red)
+                }
+                .cornerRadius(10)
+            }
         }
     }
     

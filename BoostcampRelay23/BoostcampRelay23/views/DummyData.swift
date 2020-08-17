@@ -12,11 +12,8 @@ import RealmSwift
 
 
 func posts() -> Results<PostData>{
-    DummyFactory.autoCreate()
+    DummyFactory.autoCreate() // 30 개 데이터 만들어주는 아이
     return DBHelper.getInstance().readPostList()
 }
 
 var listData = posts()
-
-//var listData: [Post] = [Post(id: 0, title: "Title1", content: "부스트캠프 프로젝트!", author: "cho", date: "2020. 08. 07"),
-//                        Post(id: 1, title: "Title2", content: "안녕하세요.", author: "cho", date: "2020. 08. 07")]

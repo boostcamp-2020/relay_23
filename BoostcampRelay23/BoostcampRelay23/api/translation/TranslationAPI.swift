@@ -15,20 +15,19 @@
   class TranslationAPI {
       
        static let shared = TranslationAPI()
-       private let userId = "다음 릴레이 프로젝트를 진행하실 캠퍼분의 user id를 넣어주세요"
-       private let key = "다음 릴레이 프로젝트를 진행하실 캠퍼분의 key를 넣어주세요"
+       private let userId = "" //TODO: Key 넣어서 쓰세요
+       private let key = "" //TODO: Key 넣어서 쓰세요
        private var request = URLRequest(url: URL(string: "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation")!)
        
-       private init(){
+       private init() {
            // url request 정의
            request.httpMethod = "POST"
            request.addValue(userId, forHTTPHeaderField: "X-NCP-APIGW-API-KEY-ID")
            request.addValue(key, forHTTPHeaderField: "X-NCP-APIGW-API-KEY")
        }
        
-       
-       func translate(text: String,_ callback: @escaping (String)->Void) {
-           let param = "source=ko&target=en&text=\(text)"
+    func translate(text: String, to :String, from: String, _ callback: @escaping (String)->Void) {
+           let param = "source=\(from)&target=\(to)&text=\(text)"
            let paramData = param.data(using: .utf8)
            
            request.httpBody = paramData
@@ -47,7 +46,7 @@
                   // decode json -> extract 'translated text'
                   if let data = data, let TransDatas = try? decoder.decode(Entry.self, from: data) {
                       translatedText = TransDatas.message.result.translatedText
-                      callback(translatedText)
+                    callback(translatedText)
                   }
                   
                   
@@ -58,5 +57,3 @@
            dataTask.resume()
        }
   }
-
-

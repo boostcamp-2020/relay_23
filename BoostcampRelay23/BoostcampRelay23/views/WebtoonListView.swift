@@ -8,13 +8,13 @@
 
 import SwiftUI
 
-struct TableListView: View {
+struct WebtoonListView: View {
+    var listData2: [Post] = [Post(title: "Olympus", author: "Someone from America"), Post(title: "Olympus2", author: "Someone from America")]
 
     var body: some View {
         NavigationView{
-            
-            List(listData) { item in
-                NavigationLink(destination: DetailView(detailData: item)){
+            List(listData2) { item in
+                NavigationLink(destination: WebtoonView(detailData: item)) {
                     VStack(alignment: .leading) {
                         Spacer()
                         Text(item.getTitle()).bold().font(.title)
@@ -25,18 +25,13 @@ struct TableListView: View {
                         Spacer()
                     }
                 }
-            }.navigationBarTitle("글 목록 페이지", displayMode: .inline)
-            
-            .navigationBarItems(trailing:
-                NavigationLink(destination: WriteView()) {
-                    Text("POST")
-                })
+            }.navigationBarTitle("아마추어 만화 목록", displayMode: .inline)
         }
     }
 }
 
-struct TableList_Previews: PreviewProvider {
+struct WebtoonList_Previews: PreviewProvider {
     static var previews: some View {
-        TableListView()
+        WebtoonListView()
     }
 }
